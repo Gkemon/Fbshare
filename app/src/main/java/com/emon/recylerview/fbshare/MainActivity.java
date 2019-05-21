@@ -23,6 +23,17 @@ import java.security.NoSuchAlgorithmException;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    /*
+
+    Follow this:"https://developers.facebook.com/docs/sharing/android/".
+    First command:cd "C:\Program Files\Java\jdk-12.0.1\bin".
+    Debug:keytool -exportcert -alias androiddebugkey -keystore C:\Users\user\.android\debug.keystore | D:\openssl\bin\openssl sha1 -binary | D:\openssl\bin\openssl base64
+    Release:(Actually I Don't need)=>keytool -exportcert -alias keyAlias -keystore "D:\Office Project\Fbshare\FBshare.jks" | D:\openssl\bin\openssl sha1 -binary | D:\openssl\bin\openssl base64
+
+
+    */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
